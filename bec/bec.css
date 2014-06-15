@@ -1,0 +1,68 @@
+body {
+  font-family: "微软雅黑";
+  font-size: 200%;
+  overflow-x: hidden;
+}
+h1 {
+  margin-bottom: 1.1em;
+}
+h2 {
+  margin-bottom: 1em;
+}
+h3 {
+  margin-bottom: 0.9em;
+}
+h4 {
+  margin-bottom: 0.8em;
+}
+img {
+  max-width: 100%;
+}
+
+.banner {
+  border-radius: 1em;
+  max-height: 10em;
+}
+.avatar {
+  max-height: 5em;
+  border-radius: 20px;
+}
+.boss {
+  border-radius: 0.5em;
+}
+
+.carousel .item {
+  background-color: #FF6600;
+}
+.carousel-control.left {
+  background-image: linear-gradient(to right,rgba(255,255,255,.5) 0,rgba(255,255,255,.0001) 100%);
+}
+.carousel-control.right {
+  background-image: linear-gradient(to right,rgba(255,255,255,.0001) 0,rgba(255,255,255,.5) 100%);
+}
+
+.cases {
+  padding: 0;
+  margin: 0;
+}
+.cases li {
+  list-style: none;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  border-left: 0.1em solid gray;
+}
+.cases img {
+  height: 10em;
+}
+
+footer {
+  position: relative;
+}
+footer .wrapper {
+  width: 100%;
+  position: absolute;
+}
+footer img {
+  margin-top: 2em;
+  width: 100%;
+}
