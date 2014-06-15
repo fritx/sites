@@ -1,5 +1,5 @@
 body {
-  font-family: "微软雅黑";
+  font-family: "微软雅黑", sans-serif;
   font-size: 200%;
   overflow-x: hidden;
 }
@@ -18,6 +18,9 @@ h4 {
 img {
   max-width: 100%;
 }
+.marketing h2 {
+  margin-top: 2em;
+}
 
 .banner {
   border-radius: 1em;
@@ -25,7 +28,7 @@ img {
 }
 .avatar {
   max-height: 5em;
-  border-radius: 20px;
+  border-radius: 1em;
 }
 .boss {
   border-radius: 0.5em;
@@ -55,7 +58,11 @@ img {
   height: 10em;
 }
 
+.featurette-divider {
+  margin: 4em 0;
+}
 footer {
+  padding-top: 0.5em;
   position: relative;
 }
 footer .wrapper {
