@@ -15,16 +15,16 @@ img {
   max-width: 100%;
   height: auto;
 }
-table {
+.table {
   font-size: 80%;
-  width: 100%;
   overflow: auto;
   display: block;
+  margin-bottom: 0;
 }
 th, td {
   min-width: 12em;
 }
-[id|="case"] tr td:nth-child(1) {
+[id|="report"] tr td:nth-child(1) {
   min-width: 6em;
 }
 
