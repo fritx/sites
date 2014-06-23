@@ -1,7 +1,7 @@
 body {
   font-family: "微软雅黑", sans-serif;
   font-size: 200%;
-  overflow-x: hidden;
+  width: 100%;
 }
 h1 {
   margin-bottom: 1.1em;
@@ -12,16 +12,44 @@ h2 {
 h3 {
   margin-bottom: 0.9em;
 }
-h4 {
-  margin-bottom: 0.8em;
-}
 img {
   max-width: 100%;
+  height: auto;
 }
+table {
+  font-size: 80%;
+  width: 100%;
+  overflow: auto;
+  display: block;
+}
+th, td {
+  min-width: 12em;
+}
+[id|="case"] tr td:nth-child(1) {
+  min-width: 6em;
+}
+
+.nav-tabs {
+  font-size: 85%;
+  font-weight: bold;
+}
+.nav-tabs>li>a, .nav-tabs>li>a:hover,
+.nav-tabs>li>a:focus {
+  border: 1px solid #efefef;
+  border-bottom-color: transparent;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+  border: 1px solid #d0d0d0;
+  border-bottom-color: transparent;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: #f1f1f1;
+}
+
 .marketing h2 {
   margin-top: 2em;
 }
-
 .banner {
   border-radius: 1em;
   max-height: 7em;
@@ -32,6 +60,9 @@ img {
 }
 .boss {
   border-radius: 0.5em;
+}
+.guides {
+  margin-top: 1em;
 }
 
 .carousel .item {
