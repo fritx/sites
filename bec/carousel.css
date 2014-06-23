@@ -44,16 +44,8 @@ body {
 }
 
 /* Center align the text within the three columns below the carousel */
-.marketing h2 {
-  font-weight: normal;
-}
 .marketing .summary {
   text-align: center;
-  margin-bottom: 20px;
-}
-.marketing .summary p {
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 
