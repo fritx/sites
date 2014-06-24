@@ -49,6 +49,12 @@ th, td {
 .marketing h2 {
   margin-top: 2em;
 }
+.plans {
+  text-align: center;
+}
+.guides {
+  margin-top: 1em;
+}
 .banner {
   border-radius: 1em;
   max-height: 7em;
@@ -59,9 +65,6 @@ th, td {
 }
 .boss {
   border-radius: 0.5em;
-}
-.guides {
-  margin-top: 1em;
 }
 
 .carousel .item {
