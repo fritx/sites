@@ -108,6 +108,11 @@ footer img {
   padding-left: 15px;
   padding-right: 15px;
 }
+.holder {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
 @media (min-width: 768px) {
   .cases img {
     height: 10em;
