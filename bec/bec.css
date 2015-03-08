@@ -85,7 +85,7 @@ th, td {
   border-left: 0.1em solid gray;
 }
 .cases img {
-  height: 10em;
+  height: 12em;
 }
 
 .featurette-divider {
@@ -107,6 +107,11 @@ footer img {
 .marketing {
   padding-left: 15px;
   padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .cases img {
+    height: 10em;
+  }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   .boss {
