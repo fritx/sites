@@ -46,9 +46,6 @@ th, td {
   background-color: #f1f1f1;
 }
 
-.marketing h2 {
-  margin-top: 2em;
-}
 .plans {
   text-align: center;
 }
@@ -105,4 +102,24 @@ footer .wrapper {
 footer img {
   margin-top: 2em;
   width: 100%;
+}
+
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .boss {
+    margin-top: 1em;
+  }
+}
+@media (min-width: 992px) {
+  .boss-desc {
+    padding-left: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  .boss-desc {
+    padding-left: 2em;
+  }
 }
