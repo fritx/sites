@@ -14,6 +14,7 @@ h3 {
 img {
   max-width: 100%;
   height: auto;
+  background-color: #eee;
 }
 .table {
   font-size: 80%;
@@ -49,6 +50,10 @@ th, td {
 .plans {
   text-align: center;
 }
+.plans img {
+  width: 120px;
+  height: 120px;
+}
 .guides {
   margin-top: 1em;
 }
@@ -67,6 +72,9 @@ th, td {
 
 .carousel .item {
   background-color: #FF6600;
+}
+.carousel-control {
+  z-index: 99;
 }
 .carousel-control.left {
   background-image: linear-gradient(to right,rgba(255,255,255,.5) 0,rgba(255,255,255,.0001) 100%);

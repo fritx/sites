@@ -122,7 +122,7 @@
             <p>　　您企业属于---- ？</p>
           </div>
           <div class="col-sm-7">
-            <img class="featurette-image" src="img/pic-00.png">
+            <img class="featurette-image" data-original="img/pic-00.png">
           </div>
           <div class="col-sm-12 col-md-9 guides">
             <!-- Nav tabs -->
@@ -340,7 +340,7 @@
 
         <div class="row">
           <div class="col-md-6">
-            <img src="img/pic-03.png">
+            <img data-original="img/pic-03.png">
           </div>
           <div class="col-md-6">
             <h3>三、高端的专业视角 ＝ 项目投融资更顺</h3>
@@ -353,26 +353,26 @@
       <div class="featurette">
         <h2 class="featurette-heading">商擎顾问有哪些经典案例？</h2>
         <ul class="row cases">
-          <li class="col-md-3 col-xs-6"><img src="img/case-01.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-03.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-04.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-05.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-06.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-07.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-08.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-09.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-11.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-15.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-18.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-19.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-22.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-23.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-24.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-25.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-31.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-32.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-33.png"></li>
-          <li class="col-md-3 col-xs-6"><img src="img/case-34.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-01.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-03.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-04.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-05.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-06.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-07.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-08.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-09.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-11.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-15.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-18.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-19.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-22.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-23.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-24.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-25.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-31.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-32.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-33.png"></li>
+          <li class="col-md-3 col-xs-6"><img data-original="img/case-34.png"></li>
         </ul>
       </div>
       <!-- /END THE FEATURETTES -->
@@ -396,5 +396,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- qiniu repo/sites -->
+    <script src="http://7xinyy.com1.z0.glb.clouddn.com/jquery_lazyload_1.9.5.min.js"></script>
+    <script>
+    // image lazyload
+    $('img[data-original]').lazyload({
+      threshold: 200
+    })
+    </script>
   </body>
 </html>
