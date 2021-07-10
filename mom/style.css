@@ -1,0 +1,154 @@
+html, body {
+	font-family: 微软雅黑, 宋体;
+	font-size: 24px;
+	color: #90C;
+	margin: 0;
+}
+h3 {
+	color: #690;
+}
+
+.hidden {
+	display: none;
+}
+.transparent {
+	opacity: 0;
+}
+
+#bg_image {
+	z-index: -100; position: fixed;
+	width: 1280px; height: 800px; margin: auto;
+	opacity: .3;
+}
+
+#wrapper {
+	width: 850px; height: 800px;
+	margin: auto;
+}
+
+#poem {
+	width: 472px; height: 354px;
+	position:absolute;
+	margin-top: 40px;
+	border: 16px solid #9C0;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+#memory {
+	height: 1100px;
+}
+#memory img, #memory p {
+	position: absolute;
+}
+#p1 {
+	margin-left: 540px; margin-top: 150px;
+}
+#p2 {
+	margin-left: 200px; margin-top: 460px;
+}
+#p3 {
+	margin-left: 500px; margin-top: 530px;
+}
+#p4 {
+	margin-left: 130px; margin-top: 750px;
+}
+#p5 {
+	margin-left: 360px; margin-top: 1070px;
+}
+#img1 {
+	margin-left: 600px; margin-top: 180px;
+}
+#img2 {
+	margin-left: 70px; margin-top: 490px;
+}
+#img3 {
+	margin-left: 600px; margin-top: 590px;
+}
+#img4 {
+	margin-left: 300px; margin-top: 830px;
+}
+
+#blessing {
+	width: inherit; height: 140px;
+	margin-top: 40px;
+	color:#F36;
+	border: 16px solid #69F;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+#blessing>div {
+	z-index: -1;
+	width: inherit; height: inherit;
+	position: absolute;
+	background-color: #CFC;
+	opacity: .6;
+}
+#blessing>p {
+	padding-left: 60px; padding-right: 60px;
+}
+#p6 {
+	margin-left: 150px;
+}
+
+#slider {
+	margin-top: 40px;
+}
+
+#tips {
+	margin-top: 40px;
+}
+#tips>ol>li {
+	margin-left:40px;
+}
+
+#planting {
+	width: inherit; height: 280px;
+	margin-top: 40px;
+}
+#planting>div {
+	width: 300px; height: inherit;
+	margin: auto;
+}
+#planting>div>img {
+	position: absolute;
+}
+#earth {
+	margin-top: 180px;
+}
+#tree {
+	margin-left: 97px; margin-top: 33px;
+}
+#green {
+	margin-left: 30px; margin-top: 5px;
+}
+#button {
+	position: absolute;
+	width: 100px; height: 50px;
+	margin-left: 650px; margin-top: 130px;
+}
+
+#message {
+	width: inherit; height: 140px;
+	margin-top: 40px;
+	color:#39F;
+	border: 16px solid #96C;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+#message>div {
+	z-index: -1;
+	width: inherit; height: inherit;
+	position: absolute;
+	background-color: #FCC;
+	opacity: .6;
+}
+#message>p {
+	padding-left: 60px; padding-right: 60px;
+}
+#p7 {
+	margin-left: 420px;
+}

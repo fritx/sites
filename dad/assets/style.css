@@ -1,0 +1,67 @@
+#container {
+	width:1024px;
+	margin:auto;
+
+}
+#poem {
+	width:400px;
+	font-size:12px;
+	padding:0px 12px 0px 12px;
+}
+#poem p:before, #foot p:before {
+	content:"　　";
+}
+#poem a {
+	color:gray;
+}
+#quote {
+	width:260px;
+	padding:0px 12px 12px 12px;
+}
+#quote q:before {
+	content:"“";
+	font-size:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#quote q:after {
+	content:"”";
+	font-size:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#foot {
+	width:560px;
+}
+#foot div {
+	position:absolute;
+	width:440px;
+	margin:160px 0px 0px -200px;
+}
+#foot audio {
+	margin:10px 0px 0px 50px;
+}
+#foot img {
+	float:right;
+	margin:50px -10px 20px 0px;
+}
+
+
+.txt_center {
+	text-align:center;
+}
+.box_shadow {
+	-webkit-box-shadow: 1px 1px 3px #ccc;
+	-moz-box-shadow: 1px 1px 3px #ccc;
+	-o-box-shadow: 1px 1px 3px #ccc;
+	box-shadow: 1px 1px 3px #ccc;
+}
+.box_row {
+	margin:0px 0px 16px 0px;
+}
+.box_left {
+	margin:0px 16px 16px 0px;
+	float:left;
+}
+.box_right {
+	margin:0px 0px 16px 0px;
+	float:left;
+}

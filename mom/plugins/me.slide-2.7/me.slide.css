@@ -1,0 +1,34 @@
+.msSlider {
+	display:none;
+}
+.msSlider>.msControls>span {
+	display: inline-block;
+	position:relative; z-index:2; cursor:pointer;
+}
+.msSlider>.msControls>.msPrev {
+	background-image: url('prev.png');
+}
+.msSlider>.msControls>.msNext {
+	background-image: url('next.png');
+}
+.msSlider>.msFrame {
+	overflow:hidden; border: 16px solid;
+	/* corner rounded */
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+.msSlider>.msFrame>.msPhotoset {
+	height: inherit; margin-left:0px;
+}
+.msSlider>.msFrame>.msPhotoset>div {
+	height: inherit; float:left;
+}
+.msSlider>.msFrame>.msPhotoset>div>img {
+	width: inherit; height: inherit;
+}
+.msSlider>.msFrame>.msPhotoset>div>p {
+	position:relative; margin:0; padding-top:10px; padding-bottom:10px;
+	font-family:helvetica; color:#fff;
+	background-color:#000; opacity:.7; filter:alpha(opacity=70);
+}
